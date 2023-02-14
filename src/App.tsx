@@ -1,10 +1,14 @@
 import React from "react";
+import { Hero, Navbar } from "./components";
 
 const App: React.FC = () => {
   return (
-    <div className="grid place-items-center min-h-screen">
-      <h1 className="text-sky-600 text-3xl">Hello World</h1>
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 };
 
