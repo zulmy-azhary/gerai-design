@@ -1,12 +1,14 @@
 import React from "react";
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, Pricing, Services } from "./components";
 
 const App: React.FC = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="flex flex-col gap-y-12">
         <Hero />
+        <Pricing />
+        <Services />
       </main>
     </>
   );

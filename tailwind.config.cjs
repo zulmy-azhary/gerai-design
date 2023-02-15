@@ -17,9 +17,11 @@ module.exports = {
       backgroundImage: {
         "hero-desktop": "url('/assets/bg-hero-desktop.svg')",
         "hero-mobile": "url('/assets/bg-hero-mobile.svg')",
+        "img-pricing-secondary": "url('/assets/img-pricing-secondary.svg')"
       },
       colors: {
-        bluesky: "#0099FF",
+        blueSky: "#0099FF",
+        darkBlue: "#044581",
       },
     },
   },
