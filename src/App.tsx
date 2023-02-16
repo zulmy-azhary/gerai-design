@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Navbar, Pricing, Services } from "./components";
+import { Contact, Footer, Hero, Navbar, Pricing, Services } from "./components";
 
 const App: React.FC = () => {
   return (
@@ -9,7 +9,9 @@ const App: React.FC = () => {
         <Hero />
         <Pricing />
         <Services />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 };

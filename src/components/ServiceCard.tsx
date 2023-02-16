@@ -19,7 +19,7 @@ const ServiceCard: React.FC<Props> = (props) => {
       {...rest}
     >
       <div className="p-5 rounded-full bg-gradient-to-br from-[#227AFF] to-[#38D0E4]/70">
-        <img src={`/assets/icons/icon-${icon.toLowerCase()}.svg`} className="w-8 lg:w-10 xl:w-12 h-8 lg:h-10 xl:h-12" />
+        <img src={`/assets/icons/icon-${icon.toLowerCase()}.svg`} className="w-8 lg:w-10 xl:w-12 h-8 lg:h-10 xl:h-12 select-none" />
       </div>
       <h3 className="text-darkBlue text-lg md:text-xl lg:text-2xl font-medium md:font-semibold">{title}</h3>
       <p className="text-center tracking-wide text-gray-800 text-sm md:text-base">{description}</p>

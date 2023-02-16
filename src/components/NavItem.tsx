@@ -8,7 +8,7 @@ const NavItem: React.FC<React.PropsWithChildren<Props>> = (props) => {
 
   return (
     <li>
-      <a href={href} className={clsx("md:text-sm lg:text-base xl:text-xl tracking-wide font-medium", className)} {...rest}>
+      <a href={href ?? "#"} className={clsx("md:text-sm lg:text-base xl:text-xl tracking-wide font-medium cursor-pointer", className)} {...rest}>
         {children}
       </a>
     </li>

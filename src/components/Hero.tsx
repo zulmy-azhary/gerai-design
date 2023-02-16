@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         <img
           src={heroImage}
           alt="Hero Image Banner"
-          className="max-w-xs object-contain md:max-w-lg lg:max-w-xl xl:max-w-2xl"
+          className="max-w-xs object-contain md:max-w-lg lg:max-w-xl xl:max-w-2xl select-none"
         />
       </div>
     </section>

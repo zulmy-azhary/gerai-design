@@ -7,7 +7,7 @@ const navItems = ["Abouts", "Pricing", "Services", "Contact"];
 const Navbar: React.FC = () => {
   const isTablet = useMediaQuery("(min-width: 768px)");
   return (
-    <header className="absolute top-0 left-0 w-full">
+    <header className="absolute top-0 left-0 w-full z-50">
       <nav className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto py-6 flex justify-between items-center">
         <LogoText className="text-white text-xl lg:text-2xl xl:text-3xl" />
         <aside>
